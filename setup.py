@@ -5,7 +5,7 @@ setup(
   packages = ['freq'],
   package_dir = {'freq': 'freq'},
   package_data = {'freq': ['__init__.py', 'test.py']},
-  version = '1.0.1',
+  version = '1.0.2',
   description = 'Frequency Calculator for Python',
   author = 'Daniel J. Dufour',
   author_email = 'daniel.j.dufour@gmail.com',

@@ -14,7 +14,11 @@ from freq import Freq
 
 freqs = Freq(["US", "US", "US", "CA"])
 
+# Freq({'US': 0.75, 'CA': 0.25})
 ```
+
+# Methods
+Because Freq subclasses counter you should be able to use all the same methods as Counter.
 
 # Versions
 Freq works has been tested and works with the following Python versions:
