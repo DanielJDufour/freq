@@ -9,3 +9,8 @@ class TestMethods(unittest.TestCase):
         freqs = Freq(country_codes)
         self.assertEqual(0.75, freqs["US"])
         self.assertEqual(0.25, freqs["CA"])
+
+    def test_nones(self):
+        mexican_food = ["Taco", "Chilaquiles", "Mole", "Taco", "Burrito"]
+        freqs = Freq(mexican_food)
+        self.assertEqual(0, freqs["Bento Box"])
